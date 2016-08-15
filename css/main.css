@@ -1,15 +1,25 @@
-        body{
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
         }
-        .vapor
-        {
-          display: none;
+        
+        .vapor {
+            display: none;
         }
-  .swimming{
-    position: fixed; z-index: -99;  left: -7%; top: -7%; width:114%; height: 114%;
-  }
-    .cover{
-    position: fixed; z-index: 1;   width:114%; height: 114%;
-  }
+        
+        .swimming {
+            position: fixed;
+            z-index: -99;
+            left: -7%;
+            top: -7%;
+            width: 114%;
+            height: 114%;
+        }
+        
+        .cover {
+            position: fixed;
+            z-index: 1;
+            width: 114%;
+            height: 114%;
+        }
